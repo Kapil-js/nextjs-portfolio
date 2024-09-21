@@ -5,10 +5,10 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Rohit Singh - Portfolio",
-  description: "Welcome to the portfolio of Rohit Singh. Explore my work in web design, frontend development, ReactJS, NextJS, and Figma.",
-  publisher: "Rohit Singh",
-  keywords: "Rohit Singh, portfolio, web design, frontend development, ReactJS, NextJS, Figma",
+  title: "Kapil Kumawat - Portfolio",
+  description: "Welcome to the portfolio of Kapil Kumawat. Explore my work in web design, frontend development, ReactJS, NextJS, and Figma.",
+  publisher: "Kapil Kumawat",
+  keywords: "Kapil Kumawat, portfolio, web design, frontend development, ReactJS, NextJS, Figma",
 };
 
 

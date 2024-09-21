@@ -13,7 +13,7 @@ export default function ThreeDCard() {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
-          Hi, I’m Rohit Singh!
+          Hi, I’m Kapil Kumawat!
         </CardItem>
         <CardItem
           as="p"
@@ -22,7 +22,7 @@ export default function ThreeDCard() {
         >
           Looking to collaborate or have a project in mind? I’d love to hear from you! Let’s create something amazing together!
         </CardItem>
-        <CardItem translateZ="100" className="w-full mt-4">
+        {/* <CardItem translateZ="100" className="w-full mt-4">
           <Image
             src="/images/projects/me.jpeg"
             height="1000"
@@ -30,7 +30,7 @@ export default function ThreeDCard() {
             className="h-[400px] mx-auto w-auto object-cover rounded-xl group-hover/card:shadow-xl"
             alt="thumbnail"
           />
-        </CardItem>
+        </CardItem> */}
       </CardBody>
     </CardContainer>
   );
