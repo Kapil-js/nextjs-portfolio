@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 export const metadata: Metadata = {
   title: "Kapil Kumawat - Portfolio",
@@ -23,6 +25,7 @@ export default function RootLayout({
       <body className={inter.className} suppressHydrationWarning={true}>
       <Header />
         {children}
+        <SpeedInsights />
         </body>
     </html>
   );
