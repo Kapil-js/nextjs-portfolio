@@ -41,30 +41,30 @@ const testimonials = [
     image: "/images/skills/illustrator.png",
     title: "Adobe Illustrator",
   },
-  {
-    quote:
-      "Skilled in Adobe Premiere Pro, I bring video projects to life through professional editing, color correction, and seamless transitions for compelling narratives.",
-    image: "/images/skills/premiere-pro.png",
-    title: "Adobe Premiere Pro",
-  },
+  // {
+  //   quote:
+  //     "Skilled in Adobe Premiere Pro, I bring video projects to life through professional editing, color correction, and seamless transitions for compelling narratives.",
+  //   image: "/images/skills/premiere-pro.png",
+  //   title: "Adobe Premiere Pro",
+  // },
   {
     quote:
       "Expert in Adobe XD, I design intuitive and visually appealing user interfaces, focusing on user experience and interactive prototypes for digital products.",
     image: "/images/skills/xd.png",
     title: "Adobe XD",
   },
-  {
-    quote:
-      "With Adobe Media Encoder, I efficiently manage video rendering and compression tasks, ensuring optimized output for multiple platforms with excellent quality.",
-    image: "/images/skills/media-encoder.png",
-    title: "Adobe Media Encoder",
-  },
-  {
-    quote:
-      "Proficient in Adobe After Effects, I create stunning motion graphics, visual effects, and animations, adding dynamic elements to videos and multimedia projects.",
-    image: "/images/skills/after-effects.png",
-    title: "Adobe After Effects",
-  }
+  // {
+  //   quote:
+  //     "With Adobe Media Encoder, I efficiently manage video rendering and compression tasks, ensuring optimized output for multiple platforms with excellent quality.",
+  //   image: "/images/skills/media-encoder.png",
+  //   title: "Adobe Media Encoder",
+  // },
+  // {
+  //   quote:
+  //     "Proficient in Adobe After Effects, I create stunning motion graphics, visual effects, and animations, adding dynamic elements to videos and multimedia projects.",
+  //   image: "/images/skills/after-effects.png",
+  //   title: "Adobe After Effects",
+  // }
 ];
 
 const testimonialsCode = [
@@ -86,12 +86,12 @@ const testimonialsCode = [
     image: "/images/skills/javascript.png",
     title: "JavaScript",
   },
-  {
-    quote:
-      "Skilled in TypeScript, I enhance JavaScript development with static typing, leading to more reliable and maintainable code in complex applications.",
-    image: "/images/skills/typescript.png",
-    title: "TypeScript",
-  },
+  // {
+  //   quote:
+  //     "Skilled in TypeScript, I enhance JavaScript development with static typing, leading to more reliable and maintainable code in complex applications.",
+  //   image: "/images/skills/typescript.png",
+  //   title: "TypeScript",
+  // },
   {
     quote:
       "Experienced with ReactJS, I build efficient and scalable user interfaces, leverage component-based architecture, and create responsive web applications.",
@@ -104,17 +104,17 @@ const testimonialsCode = [
     image: "/images/skills/nextjs.png",
     title: "NextJS",
   },
+  // {
+  //   quote:
+  //     "Skilled in Material UI, I create modern and consistent user interfaces with pre-designed components and a responsive grid system, enhancing user experience.",
+  //   image: "/images/skills/material-ui.png",
+  //   title: "Material UI",
+  // },
   {
     quote:
-      "Skilled in Material UI, I create modern and consistent user interfaces with pre-designed components and a responsive grid system, enhancing user experience.",
-    image: "/images/skills/material-ui.png",
-    title: "Material UI",
-  },
-  {
-    quote:
-      "Experienced with jQuery, I simplify DOM manipulation, event handling, and AJAX requests, streamlining development for dynamic and interactive web pages.",
-    image: "/images/skills/jquery.png",
-    title: "jQuery",
+      "I leverage Tailwind CSS to create responsive, modern web applications with a focus on utility-first design, ensuring clean code and seamless user experiences. My projects highlight customization and efficiency, from personal portfolios to dynamic dashboards.",
+    image: "/images/skills/tailwind.png",
+    title: "Tailwind CSS ",
   },
   {
     quote:

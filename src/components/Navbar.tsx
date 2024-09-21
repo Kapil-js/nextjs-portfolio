@@ -97,36 +97,36 @@ export default function Navbar({ className }: { className?: string }) {
         <Menu setActive={setActive}>
           <MenuItem setActive={setActive} active={active} item="Services">
             <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="/web-dev">Frontend Development</HoveredLink>
-              <HoveredLink href="/interface-design">Web Design</HoveredLink>
-              <HoveredLink href="/seo">Figma Design</HoveredLink>
-              <HoveredLink href="/branding">Graphic Design</HoveredLink>
-              <HoveredLink href="/branding">Video Editing</HoveredLink>
+              <HoveredLink href="/">Frontend Development</HoveredLink>
+              <HoveredLink href="/">Web Design</HoveredLink>
+              <HoveredLink href="/">Figma Design</HoveredLink>
+              <HoveredLink href="/">Graphic Design</HoveredLink>
+              {/* <HoveredLink href="/branding">Video Editing</HoveredLink> */}
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Products">
             <div className="text-sm grid md:grid-cols-2 grid-cols-1 gap-10 p-4">
               <ProductItem
                 title="Frontend"
-                href="https://algochurn.com"
+                href="/"
                 src="/images/services/frontend.jpg"
                 description="Prepare for tech interviews like never before."
               />
               <ProductItem
                 title="Web"
-                href="https://tailwindmasterkit.com"
+                href="/"
                 src="/images/services/web-design.jpg"
                 description="Production ready Tailwind css components for your next project"
               />
               <ProductItem
                 title="UI/UX"
-                href="https://gomoonbeam.com"
+                href="/"
                 src="/images/services/ui-ux.png"
                 description="Never write from scratch again. Go from idea to blog in minutes."
               />
               <ProductItem
                 title="Grphics"
-                href="https://userogue.com"
+                href="/"
                 src="/images/services/graphic.jpg"
                 description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
               />
@@ -165,7 +165,7 @@ export default function Navbar({ className }: { className?: string }) {
           </select>
         </div>
         <div className="col-span-2">
-          <Input id="phone" className="remove-arrow" placeholder="8209243183" type="number"  value={formData.phone} onChange={(e:any)=>setFormData((formData)=>({...formData, phone:e.target.value }))} />
+          <Input id="phone" className="remove-arrow" placeholder="9672520566" type="number"  value={formData.phone} onChange={(e:any)=>setFormData((formData)=>({...formData, phone:e.target.value }))} />
         </div>
         </div>
         </LabelInputContainer>

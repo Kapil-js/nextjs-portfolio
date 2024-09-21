@@ -104,7 +104,7 @@ export default function InputBox() {
           </select>
         </div>
         <div className="col-span-2">
-          <Input id="phone" className="remove-arrow" placeholder="8209243183" type="number"  value={formData.phone} onChange={(e:any)=>setFormData((formData)=>({...formData, phone:e.target.value }))} />
+          <Input id="phone" className="remove-arrow" placeholder="9672520566" type="number"  value={formData.phone} onChange={(e:any)=>setFormData((formData)=>({...formData, phone:e.target.value }))} />
         </div>
         </div>
         </LabelInputContainer>

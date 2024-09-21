@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
+import { IconPhoneCall,IconMail  } from "@tabler/icons-react";
 
 export default function ThreeDCard() {
   return (
@@ -31,6 +32,20 @@ export default function ThreeDCard() {
             alt="thumbnail"
           />
         </CardItem> */}
+        <div className="contact-detail pt-8">
+          <div className="flex items-center gap-3 ">
+            <div className="aspect-square h-10 w-10 rounded-full bg-gray-200 dark:bg-neutral-800 flex items-center justify-center relative">
+              <IconPhoneCall className="h-5 w-5 text-neutral-500 dark:text-neutral-300" />
+            </div>
+              <a href="tel:919672520566">+91 9672520566</a>
+          </div>
+          <div className="flex items-center gap-3 pt-5">
+            <div className="aspect-square h-10 w-10 rounded-full bg-gray-200 dark:bg-neutral-800 flex items-center justify-center relative">
+              <IconMail  className="h-5 w-5 text-neutral-500 dark:text-neutral-300" />
+            </div>
+              <a href="mailto:kapilkumawat.work@gmail.com">kapilkumawat.work@gmail.com</a>
+          </div>
+        </div>
       </CardBody>
     </CardContainer>
   );

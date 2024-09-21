@@ -5,78 +5,44 @@ import { Timeline } from "@/components/ui/timeline";
 export default function TimelineSection() {
   const data = [
     {
-      title: "2021",
+      title: "2022",
       content: (
         <div>
-          <h3 className="text-white text-3xl font-bold mb-5"><a href="https://hawkscode.com/">HawksCode Softwares Pvt. Ltd.</a></h3>
+          <h3 className="text-white text-3xl font-bold mb-5"><a href="https://www.dqotsolutions.com/" target="_blank">Dqot Solutions Pvt. Ltd.</a></h3>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          I specialize in creating visually appealing and user-friendly web designs, with a strong focus on Figma for crafting detailed and innovative design layouts.
+          As a UI Developer and UX Designer at DQOT Solutions Pvt. Ltd., I focused on creating intuitive and engaging user interfaces that enhance the overall user experience.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="/images/timeline/hawkscode/mAIstory.png"
+              src="/images/projects/sportswiz.png"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="/images/timeline/hawkscode/codeguru.webp"
+              src="/images/projects/dqotsolutions.png"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="/images/timeline/hawkscode/myguru.webp"
+              src="/images/projects/dzire11.png"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-            <Image
-              src="/images/timeline/hawkscode/mAitutor.png"
+             <Image
+              src="/images/projects/minatravel.png"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "2023",
-      content: (
-        <div>
-          <h3 className="text-white text-3xl font-bold mb-5"><a href="https://nextbigtechnology.com/">Next Big Technology Pvt. Ltd.</a></h3>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          As a React developer, I contributed to building dynamic, responsive web applications, optimizing performance, and collaborating closely with cross-functional teams.
-          </p>
-          <div className="grid grid-cols-2 gap-4">
-          <Image
-              src="/images/projects/digi-homes.png"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="/images/projects/pulse.png"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="/images/projects/quadra.png"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="/images/projects/flikka.png"
+             <Image
+              src="/images/projects/itclog.png"
               alt="startup template"
               width={500}
               height={500}
@@ -90,34 +56,62 @@ export default function TimelineSection() {
       title: "2024",
       content: (
         <div>
-          <h3 className="text-white text-3xl font-bold mb-5"><a href="https://www.dqotsolutions.com/">Dqot Solutions Pvt. Ltd.</a></h3>
+          <h3 className="text-white text-3xl font-bold mb-5"><a href="https://www.dotsquares.com/" target="_blank">Dotsquares Technologies India Pvt. Ltd.</a></h3>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          As a Next.js developer, I specialized in creating high-performance, server-rendered applications, enhancing SEO, and collaborating effectively with diverse teams.
+          As a UI Developer and UX Designer at DQOT Solutions Pvt. Ltd., I focused on creating intuitive and engaging user interfaces that enhance the overall user experience.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="/images/projects/sportswiz.png"
+              src="/images/projects/diptyqueparis.png"
+              alt="diptyqueparis"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src="/images/projects/papajohns.png"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="/images/projects/affordabledreamz.png"
+              src="/images/projects/pizzaranch.png"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="/images/projects/socketprosthetics.png"
+              src="/images/projects/communityfibre.png"
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-             <Image
-              src="/images/projects/aracademy.png"
+            <Image
+              src="/images/projects/focuskon.png"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src="/images/projects/bannerbank.png"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src="/images/projects/krispykreme.png"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover object-top h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src="/images/projects/fatcatloans.png"
               alt="startup template"
               width={500}
               height={500}
@@ -127,6 +121,8 @@ export default function TimelineSection() {
         </div>
       ),
     },
+
+    
   ];
   return (
     <div className="w-full">

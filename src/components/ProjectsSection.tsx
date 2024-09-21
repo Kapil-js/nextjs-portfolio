@@ -6,157 +6,157 @@ import { link } from "fs";
 
 const content = [
   {
-    title: "SportsWiz",
+    title: "Diptyqueparis",
     description:
-      "Your go-to for live scores, stats, and sports news. Stay updated with real-time game updates and in-depth player info. Get the edge in every match with SportsWiz!",
+      "Developed a responsive website for Diptyque Paris using HTML, CSS, SCSS, Tailwind CSS, JavaScript, and React.js. The site showcases luxurious products with an elegant design and smooth navigation, enhancing user experience. ",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         <Image
-          src="/images/projects/sportswiz.png"
+          src="/images/projects/diptyqueparis.png"
           width={300}
           height={300}
           className="h-full w-full object-cover object-top"
-          alt="sportswiz"
+          alt="Diptyqueparis"
         />
       </div>
     ),
-    url: "https://sportswiz.live",
+    url: "https://www.diptyqueparis.com/en_us/",
   },
   {
-    title: "Vantage Commercial Realty",
+    title: "Papajohns",
     description:
-      "Vantage Commercial Realty specializes in commercial real estate, offering services like property management and leasing to help clients manage and optimize their commercial properties.",
+      "Created a dynamic website for Papa John's using HTML, CSS, SCSS, Tailwind CSS, JavaScript, and React.js. The site features an engaging menu display, easy ordering system, and responsive design, ensuring a seamless user experience.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
       <Image
-        src="/images/projects/vantage.png"
+        src="/images/projects/papajohns.png"
         width={300}
         height={300}
         className="h-full w-full object-cover object-top"
-        alt="sportswiz"
+        alt="papajohns"
       />
     </div>
     ),
-    url: "https://vantagecr.com/",
+    url: "https://www.papajohns.com/",
   },
   {
-    title: "Quadra",
+    title: "Pizzaranch",
     description:
-      "Empowering your freelance journey. Connect with top talent, manage projects effortlessly, and elevate your business with ease. Discover the freedom of flexible work and exceptional results with Quadra Freelancers.",
+      "Designed a vibrant website for Pizza Ranch utilizing HTML, CSS, SCSS, Tailwind CSS, JavaScript, and React.js. The site showcases their menu, provides an intuitive ordering experience, and adapts seamlessly across devices.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         <Image
-          src="/images/projects/quadra.png"
+          src="/images/projects/pizzaranch.png"
           width={300}
           height={300}
           className="h-full w-full object-cover object-top"
-          alt="sportswiz"
+          alt="pizzaranch"
         />
       </div>
     ),
-    url: "https://www.quadrafreelancers.com/",
+    url: "https://pizzaranch.com/",
   },
   {
-    title: "AffordableDreamz",
+    title: "CommunityFibre",
     description:
-      "AffordableDreamz specializes in affordable housing, helping clients find budget-friendly properties and assisting first-time homebuyers.",
+      "Developed a user-friendly website for Community Fibre using HTML, CSS, SCSS, Tailwind CSS, JavaScript, and React.js. The site highlights their high-speed internet services and offers easy navigation for users to find information and sign up. ",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         <Image
-          src="/images/projects/affordabledreamz.png"
+          src="/images/projects/communityfibre.png"
           width={300}
           height={300}
           className="h-full w-full object-cover object-top"
-          alt="sportswiz"
+          alt="communityfibre"
         />
       </div>
     ),
-    url: "https://affordabledreamz.com/",
+    url: "https://communityfibre.co.uk/",
   },
   {
-    title: "Socket Prosthetics",
+    title: "Focuskon",
     description:
-      "Socket Prosthetics designs and manufactures custom prosthetic sockets, focusing on comfort and functionality for amputees. They prioritize innovative solutions to improve mobility and enhance the quality of life for their users.",
+      "Created a sleek website for FocusKon using HTML, CSS, SCSS, Bootstrap, JavaScript, and Laravel. The site features an engaging user interface, responsive design, and robust backend functionality, ensuring a smooth experience for users.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         <Image
-          src="/images/projects/socketprosthetics.png"
+          src="/images/projects/focuskon.png"
           width={300}
           height={300}
           className="h-full w-full object-cover object-top"
-          alt="sportswiz"
+          alt="Focuskon"
         />
       </div>
     ),
-    url: "https://socketprosthetics.com/",
+    url: "https://focuskon.com/",
   },
   {
-    title: "Pulse - Social Media Website",
+    title: "Banner Bank",
     description:
-      "Your go-to for real connections and exciting encounters. Find your match or make a new connection with ease on Pulse.",
+      "Developed a modern website for BannerBank using HTML, CSS, SCSS, Tailwind CSS, JavaScript, and React.js. The site features a clean design and intuitive user experience, allowing users to easily navigate and access banking services. ",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         <Image
-          src="/images/projects/pulse.png"
+          src="/images/projects/bannerbank.png"
           width={300}
           height={300}
           className="h-full w-full object-cover object-top"
-          alt="sportswiz"
+          alt="Banner Bank"
         />
       </div>
     ),
-    url: "https://demourls.xyz/Pulse-development/home-story.html",
+    url: "https://www.bannerbank.com/",
   },
   {
-    title: "DigiHomes - Real Estate",
+    title: "Krispy Kreme",
     description:
-      "Your digital gateway to real estate. Explore, buy, and sell homes effortlessly with DigiHomes.",
+      "Created a visually appealing website for Krispy Kreme using HTML, CSS, SCSS, Tailwind CSS, JavaScript, and React.js. The site highlights their delicious products with an engaging layout and user-friendly navigation, enhancing the overall customer experience. ",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         <Image
-          src="/images/projects/digi-homes.png"
+          src="/images/projects/krispykreme.png"
           width={300}
           height={300}
           className="h-full w-full object-cover object-top"
-          alt="sportswiz"
+          alt="krispykreme"
         />
       </div>
     ),
-    url: "https://digihomes.io/",
+    url: "https://www.krispykreme.com/",
   },
   {
-    title: "Flikka - Job Search",
+    title: "Fatcat Loans",
     description:
-      "Find your next job with ease. Discover opportunities and connect with employers on Flikka.",
+      "Developed a professional website for Fat Cat Loans using HTML, CSS, SCSS, Bootstrap, JavaScript, and Laravel. The site features a user-friendly interface, responsive design, and robust backend functionality, making it easy for users to access loan information and apply online.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         <Image
-          src="/images/projects/flikka.png"
+          src="/images/projects/fatcatloans.png"
           width={300}
           height={300}
           className="h-full w-full object-cover object-top"
-          alt="sportswiz"
+          alt="fatcatloans"
         />
       </div>
     ),
-    url: "https://urlsdemo.online/flikka/",
+    url: "https://www.fatcatloans.ca/",
   },
   {
-    title: "AR Academy",
+    title: "Dqot Solutions",
     description:
-      "AR Academy offers coaching and resources for the RAS exam, providing study materials, mock tests, and expert guidance to help aspirants succeed.",
+      "Created a sleek website for DQOT Solutions using HTML, CSS, SCSS, Bootstrap, JavaScript, and Laravel. The site showcases their services with a modern design and intuitive navigation, ensuring a seamless user experience for clients.",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         <Image
-          src="/images/projects/aracademy.png"
+          src="/images/projects/dqotsolutions.png"
           width={300}
           height={300}
           className="h-full w-full object-cover object-top"
-          alt="sportswiz"
+          alt="dqotsolutions"
         />
       </div>
     ),
-    url: "https://www.aracademyras.com/",
+    url: "https://www.dqotsolutions.com/",
   },
 ];
 export function ProjectSection() {
