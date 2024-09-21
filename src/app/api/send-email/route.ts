@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer';
 import { NextRequest, NextResponse } from 'next/server';
 // import dbConnect from '@/lib/dnConnect';
-import InquiryModal from '@/modal/Inquiry';
+// import InquiryModal from '@/modal/Inquiry';
 
 export async function POST(req: NextRequest, res: NextResponse) {
   // await dbConnect()
