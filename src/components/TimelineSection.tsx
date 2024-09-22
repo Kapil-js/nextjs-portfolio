@@ -58,7 +58,7 @@ export default function TimelineSection() {
         <div>
           <h3 className="text-white text-3xl font-bold mb-5"><a href="https://www.dotsquares.com/" target="_blank">Dotsquares Technologies India Pvt. Ltd.</a></h3>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          As a UI Developer and UX Designer at DQOT Solutions Pvt. Ltd., I focused on creating intuitive and engaging user interfaces that enhance the overall user experience.
+          As a UI Developer and UX Designer at Dotsquares Technologies India Pvt. Ltd., I focused on creating intuitive and engaging user interfaces that enhance the overall user experience.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
