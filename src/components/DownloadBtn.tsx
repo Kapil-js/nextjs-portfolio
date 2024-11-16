@@ -11,7 +11,7 @@ export default function DownloadBtn() {
       <Button
         onClick={openPdf}
         borderRadius="1.75rem"
-        className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+        className="bg-white dark:bg-[#0a0a0a] text-black dark:text-white border-neutral-200 dark:border-slate-800"
       >
         My Resume
       </Button>

@@ -166,7 +166,7 @@ export function ProjectSection() {
     // initial={{ opacity: 0, y: 50 }}
     // animate={isPinned ? { opacity: 1, y: 0, position: 'fixed', top: 0 } : { opacity: 1, y: 0 }}
     // transition={{ duration: 0.5 }}
-    className="dark:bg-black bg-white">
+    className="dark:bg-[#0a0a0a] bg-white">
     <h2 className="text-4xl md:text-5xl font-bold text-center dark:text-neutral-300 text-neutral-950  pt-10 mb-20">My Projects</h2>
     <StickyScroll content={content} />
   </div>
