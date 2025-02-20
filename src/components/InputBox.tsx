@@ -36,7 +36,6 @@ export default function InputBox() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.warn(formData);
     
    if(formData.email) {
     try {
@@ -52,7 +51,6 @@ export default function InputBox() {
       const data = await response.json();
 
       if (response.ok) {
-        console.log('Email sent successfully!');
         toast.success("Thanks For Connecting", {
           theme: "dark"
         });
@@ -66,11 +64,9 @@ export default function InputBox() {
 
         setIsSubmitting(false);
       } else {
-        console.log(`Error: ${data.message}`);
         setIsSubmitting(false);
       }
     } catch (error) {
-      console.log('An error occurred while sending the email.');
       setIsSubmitting(false);
     }
    } else {

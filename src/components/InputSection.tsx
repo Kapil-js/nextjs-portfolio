@@ -12,11 +12,9 @@ export default function InputSection() {
   ];
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    console.log(e.target.value);
   };
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("submitted");
   };
   return (
     <div className="h-[40rem] flex flex-col justify-center dark:bg-[#0a0a0a] bg-white  items-center px-4">

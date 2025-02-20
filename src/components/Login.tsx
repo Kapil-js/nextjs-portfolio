@@ -19,7 +19,6 @@ export default function Login() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.warn(otp);
     
    if(otp) {
     try {
@@ -35,7 +34,6 @@ export default function Login() {
       const data = await response.json();
 
       if (response.ok) {
-        console.log('Email sent successfully!');
         toast.success("Thanks For Connecting", {
           theme: "dark"
         });
@@ -45,11 +43,9 @@ export default function Login() {
 
         setIsSubmitting(false);
       } else {
-        console.log(`Error: ${data.message}`);
         setIsSubmitting(false);
       }
     } catch (error) {
-      console.log('An error occurred while Loging in.');
       setIsSubmitting(false);
     }
    } else {

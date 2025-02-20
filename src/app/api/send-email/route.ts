@@ -47,8 +47,6 @@ export async function POST(req: NextRequest, res: NextResponse) {
   // })
   
 
-  console.log(mailOptions);
-  // console.log(process.env.NEXT_MONGODB_URI);
   
   
   try {
@@ -57,7 +55,6 @@ export async function POST(req: NextRequest, res: NextResponse) {
       // await newInquiry.save();
       return NextResponse.json({ message: 'Email sent successfully!',mailOptions});
     } catch (error) {
-      console.error(error);
       return NextResponse.json({ message: 'Error sending email' });
     }
   }

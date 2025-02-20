@@ -8,7 +8,6 @@ import FlipTitle from '@/components/FlipTitle'
 import FormSection from "@/components/FormSection";
 import CollageSection from "@/components/CollageSection";
 export default function Home() {
-  console.log(process.env.NEXT_URL_SMTP_HOST)
   return (
     <div>
       <HeroSection />

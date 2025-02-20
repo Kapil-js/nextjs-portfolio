@@ -6,6 +6,40 @@ import { link } from "fs";
 
 const content = [
   {
+    title: "Teaminindia",
+    description:
+      "Developed a responsive website for Teaminindia using HTML, CSS, Bootstrap, JavaScript,. The site showcases luxurious products with an elegant design and smooth navigation, enhancing user experience. ",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        <Image
+          src="/images/projects/teaminindia.png"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover object-top"
+          alt="teaminindia"
+        />
+      </div>
+    ),
+    url: "https://www.teaminindia.com/",
+  },
+  {
+    title: "Peacemindmusic",
+    description:
+      "Developed a responsive website for peacemindmusic using HTML, CSS, Bootstrap, JavaScript,. The site showcases luxurious products with an elegant design and smooth navigation, enhancing user experience. ",
+    content: (
+      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
+        <Image
+          src="/images/projects/peacemindmusic.png"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover object-top"
+          alt="peacemindmusic"
+        />
+      </div>
+    ),
+    url: "https://www.peacemindmusic.com/",
+  },
+  {
     title: "Diptyqueparis",
     description:
       "Developed a responsive website for Diptyque Paris using HTML, CSS, SCSS, Tailwind CSS, JavaScript, and React.js. The site showcases luxurious products with an elegant design and smooth navigation, enhancing user experience. ",

@@ -20,15 +20,12 @@ export default function Cards() {
                      
       
             if (response.ok) {
-              console.log('Email sent successfully!', data);
               toast.success("Thanks For Connecting", {
                 theme: "dark"
               });
             } else {
-              console.log(`Error: ${data.message}`);
             }
           } catch (error) {
-            console.log('An error occurred while Loging in.');;
           }
     }
 
@@ -36,7 +33,6 @@ export default function Cards() {
         getInquiry();
     },[])
     useEffect(() => {
-        console.warn(inquiries);
     },[inquiries])
   return (
     <div className="max-w-5xl mx-auto px-8">
